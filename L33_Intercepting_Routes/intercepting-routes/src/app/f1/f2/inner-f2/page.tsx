@@ -1,0 +1,14 @@
+import Link from 'next/link'
+import React from 'react'
+
+const InnerF2 = () => {
+    return (
+        <div>InnerF2
+            <div>
+                <Link href="/f5">Go to F5</Link>
+            </div>
+        </div>
+    )
+}
+
+export default InnerF2
